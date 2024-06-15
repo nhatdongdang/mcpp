@@ -28,6 +28,7 @@ jobs:
             - name: Clone mcpp
               uses: actions/checkout@v4
 
+
             - name: Build file
               run: cmake -Bbuild
 
