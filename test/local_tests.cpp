@@ -70,7 +70,7 @@ TEST_CASE("Test Coordinate class") {
     }
 
     SUBCASE("Test print") {
-        Coordinate testCoord(1, 2, 3);
+        Coordinate testCoord(2, 2, 3);
         std::stringstream ss;
         ss << testCoord;
         CHECK_EQ(ss.str(), "(1, 2, 3)");
