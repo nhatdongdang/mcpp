@@ -1,4 +1,4 @@
-name: CD
+name: CI
 
 on:
     push:
@@ -9,7 +9,7 @@ on:
         paths: ['**.cpp', '**.h', '**CMakeLists.txt']
 
 jobs:
-    deploy:
+    build-and-test:
         runs-on: ubuntu-latest
         steps:
             - name: Install Java
@@ -28,13 +28,6 @@ jobs:
             - name: Clone mcpp
               uses: actions/checkout@v4
 
-            - name: Build file
-              run: cmake -Bbuild
-
-            - name: Run  local_tests
+            - name: Run test suite
               working-directory: ./build
-              run: make local_tests && ./test/local_tests
-
-            - name: Run test_suite
-              working-directory: ./build
-              run: make test_suite && ./test/test_suite
+              run: make test_suite && ctest -R full
