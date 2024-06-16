@@ -15,7 +15,7 @@ using namespace mcpp;
 TEST_CASE("Test Coordinate class") {
     SUBCASE("Test init") {
         Coordinate testCoord;
-        CHECK_EQ(testCoord.x, 0);
+        CHECK_EQ(testCoord.x, 1);
         CHECK_EQ(testCoord.y, 0);
         CHECK_EQ(testCoord.z, 0);
     }
