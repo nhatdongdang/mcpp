@@ -1,0 +1,41 @@
+Start testing: Jun 16 14:33 AEST
+----------------------------------------------------------
+2/2 Testing: full
+2/2 Test: full
+Command: "/Users/nhatdongdang/Documents/PS2/mcpp/test/test_suite"
+Directory: /Users/nhatdongdang/Documents/PS2/mcpp
+"full" start time: Jun 16 14:33 AEST
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.9"
+[doctest] run with "--help" for options
+===============================================================================
+/Users/nhatdongdang/Documents/PS2/mcpp/test/minecraft_tests.cpp:86:
+TEST CASE:  Test the main mcpp class
+  setPlayerTilePosition and getPlayerTilePosition
+
+/Users/nhatdongdang/Documents/PS2/mcpp/test/minecraft_tests.cpp:86: ERROR: test case THREW exception: exception thrown in subcase - will translate later when the whole test case has been exited (cannot translate while there is an active exception)
+
+===============================================================================
+/Users/nhatdongdang/Documents/PS2/mcpp/test/minecraft_tests.cpp:86:
+TEST CASE:  Test the main mcpp class
+
+DEEPEST SUBCASE STACK REACHED (DIFFERENT FROM THE CURRENT ONE):
+  setPlayerTilePosition and getPlayerTilePosition
+
+/Users/nhatdongdang/Documents/PS2/mcpp/test/minecraft_tests.cpp:86: ERROR: test case THREW exception: Server failed to execute command: player.getTile()
+
+
+===============================================================================
+[doctest] test cases:  5 |  4 passed | 1 failed | 0 skipped
+[doctest] assertions: 37 | 37 passed | 0 failed |
+[doctest] Status: FAILURE!
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Failed.
+"full" end time: Jun 16 14:33 AEST
+"full" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 16 14:33 AEST

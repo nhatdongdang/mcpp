@@ -21,7 +21,7 @@ TEST_CASE("Test Coordinate class") {
     }
 
     SUBCASE("Test double init") {
-        Coordinate testCoord(1.5, 2.5, 3.5);
+        Coordinate testCoord(1.4, 2.5, 3.5);
         Coordinate testCoordFloat(1.5f, 2.5f, 3.5f);
         Coordinate testCoordRHS(1, 2, 3);
 
