@@ -168,7 +168,7 @@ TEST_CASE("Player operations") {
         mc.setPlayerPosition(testLoc + Coordinate(0, 1, 0));
     }
 
-    SUBCASE("Get position") {
+    SUBCASE("Get positio") {
         Coordinate playerLoc = mc.getPlayerPosition();
         CHECK((playerLoc == (testLoc + Coordinate(0, 1, 0))));
     }
