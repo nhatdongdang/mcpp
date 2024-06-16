@@ -1,10 +1,31 @@
-Start testing: Jun 16 14:33 AEST
+Start testing: Jun 16 14:49 AEST
 ----------------------------------------------------------
+1/2 Testing: local
+1/2 Test: local
+Command: "/Users/nhatdongdang/Documents/PS2/mcpp/test/local_tests"
+Directory: /Users/nhatdongdang/Documents/PS2/mcpp
+"local" start time: Jun 16 14:49 AEST
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.9"
+[doctest] run with "--help" for options
+===============================================================================
+[doctest] test cases:  2 |  2 passed | 0 failed | 0 skipped
+[doctest] assertions: 22 | 22 passed | 0 failed |
+[doctest] Status: SUCCESS!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"local" end time: Jun 16 14:49 AEST
+"local" time elapsed: 00:00:00
+----------------------------------------------------------
+
 2/2 Testing: full
 2/2 Test: full
 Command: "/Users/nhatdongdang/Documents/PS2/mcpp/test/test_suite"
 Directory: /Users/nhatdongdang/Documents/PS2/mcpp
-"full" start time: Jun 16 14:33 AEST
+"full" start time: Jun 16 14:49 AEST
 Output:
 ----------------------------------------------------------
 [doctest] doctest version is "2.4.9"
@@ -31,11 +52,11 @@ DEEPEST SUBCASE STACK REACHED (DIFFERENT FROM THE CURRENT ONE):
 [doctest] assertions: 37 | 37 passed | 0 failed |
 [doctest] Status: FAILURE!
 <end of output>
-Test time =   0.79 sec
+Test time =   0.76 sec
 ----------------------------------------------------------
 Test Failed.
-"full" end time: Jun 16 14:33 AEST
+"full" end time: Jun 16 14:49 AEST
 "full" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 16 14:33 AEST
+End testing: Jun 16 14:49 AEST
