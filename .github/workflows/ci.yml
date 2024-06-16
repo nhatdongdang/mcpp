@@ -22,7 +22,7 @@ jobs:
             - name: Install Dotnet
               uses: actions/setup-dotnet@v4
               with:
-                dotnet-version: '7.0.18'
+                dotnet-version: '7.0.408'
             
             # Clone the Minecraft_Tools repository from GitHub, which includes all necessary tools for the Spigot server 
             - name: Clone Minecraft_Tools
