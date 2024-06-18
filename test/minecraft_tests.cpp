@@ -44,7 +44,7 @@ TEST_CASE("Socket connection test") {
         CHECK_EQ(return_str, "29");
     }
 
-    SUBCASE("Send command") {
+    SUBCASE("Send commands") {
         tcp_conn.sendCommand("chat.post", "test message");
     }
 
