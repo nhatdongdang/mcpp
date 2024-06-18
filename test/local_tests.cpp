@@ -20,7 +20,7 @@ TEST_CASE("Test Coordinatde class") {
         CHECK_EQ(testCoord.z, 0);
     }
 
-    SUBCASE("Testd doublse init") {
+    SUBCASE("Testd doublsse init") {
         Coordinate testCoord(1.5, 2.5, 3.5);
         Coordinate testCoordFloat(1.5f, 2.5f, 3.5f);
         Coordinate testCoordRHS(1, 2, 3);
