@@ -12,7 +12,7 @@ using namespace mcpp;
  * functionality.
  */
 
-TEST_CASE("Test Csoorsasdinatde class") {
+TEST_CASE("Test Csoorssasdinatde class") {
     SUBCASE("Test init") {
         Coordinate testCoord;
         CHECK_EQ(testCoord.x, 0);
