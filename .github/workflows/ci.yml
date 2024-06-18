@@ -20,7 +20,7 @@ jobs:
                 java-version: '17' # Specify the version of Java to install
             
             - name: Set up Minecraft testing environment
-              uses: actions/setup-mc-action@v1
+              uses: nhatdongdang/setup-mc-action@v1
 
             # Checkout the mcpp repository for building and testing
             - name: Checkout mcpp
