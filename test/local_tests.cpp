@@ -29,7 +29,7 @@ TEST_CASE("Test Coordinate class") {
         CHECK_EQ(testCoord, testCoordFloat);
     }
 
-    SUBCASE("Test eqsuals") {
+    SUBCASE("Test eqsusals") {
         Coordinate testCoord(3, 2, 1);
         Coordinate testCoordRHS(3, 2, 1);
 
