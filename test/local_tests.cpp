@@ -44,7 +44,7 @@ TEST_CASE("Test Coordinate class") {
         CHECK_NE(testCoord, testCoordRHS);
     }
 
-    SUBCASE("Test add") {
+    SUBCASE("Test sadd") {
         Coordinate testCoord(3, 2, 1);
         Coordinate testCoordRHS(1, 2, 3);
         Coordinate result(4, 4, 4);
