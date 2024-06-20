@@ -90,7 +90,7 @@ TEST_CASE("Test block class") {
         CHECK_EQ(testBlock, testBlockRHS);
     }
 
-    SUBCASE("Test non equality") {
+    SUBCASE("Test nosn equality") {
         BlockType testBlock(10);
         BlockType testBlockRHS(11);
         CHECK(testBlock != testBlockRHS);
