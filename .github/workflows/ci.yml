@@ -42,7 +42,7 @@ jobs:
               run: cmake .
             
             - name: Install library
-              run: make install
+              run: sudo make install
             
             - name: Compile and link
               run: g++ -std=c++17 -lmcpp test/test_link.cpp -o test/test_link && test/test_link

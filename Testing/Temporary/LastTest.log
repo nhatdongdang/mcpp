@@ -1,0 +1,40 @@
+Start testing: Sep 09 16:16 AEST
+----------------------------------------------------------
+Unable to find executable: /Users/nhatdongdang/Documents/Code/mcpp/test/local_tests
+1/2 Testing: local
+1/2 Test: local
+Command: ""
+Directory: /Users/nhatdongdang/Documents/Code/mcpp
+"local" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"local" end time: Sep 09 16:16 AEST
+"local" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: full
+2/2 Test: full
+Command: "/Users/nhatdongdang/Documents/Code/mcpp/test/test_suite"
+Directory: /Users/nhatdongdang/Documents/Code/mcpp
+"full" start time: Sep 09 16:16 AEST
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.9"
+[doctest] run with "--help" for options
+===============================================================================
+[doctest] test cases:  8 |  8 passed | 0 failed | 0 skipped
+[doctest] assertions: 92 | 92 passed | 0 failed |
+[doctest] Status: SUCCESS!
+<end of output>
+Test time =   1.73 sec
+----------------------------------------------------------
+Test Passed.
+"full" end time: Sep 09 16:16 AEST
+"full" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Sep 09 16:16 AEST
