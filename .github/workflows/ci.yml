@@ -14,7 +14,7 @@ jobs:
         steps:
             # Start and join the Spigot Server
             - name: Set up Minecraft testing environment
-              uses: nhatdongdang/mc-env-setup@v1
+              uses: nhatdongdang/mc-env-setup@v1.1
 
             # Checkout the mcpp repository for building and testing
             - name: Checkout mcpp
