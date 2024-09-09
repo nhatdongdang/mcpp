@@ -2,6 +2,6 @@
 
 int main() {
     std::cout << mcpp::Blocks::AIR << "\n";
-    std::cout << "fds";
+    std::cout << "fdsds";
     return EXIT_SUCCESS;
 }
