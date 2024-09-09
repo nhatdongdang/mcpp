@@ -31,7 +31,7 @@ jobs:
     install-and-compile:
         strategy:
             matrix:
-                os: [ubuntu-lastest,macos-latest] 
+                os: [ubuntu-latest,macos-latest] 
         runs-on: ${{ matrix.os }}
         steps:
             # Checkout the mcpp repository
