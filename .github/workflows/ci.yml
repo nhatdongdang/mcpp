@@ -28,3 +28,24 @@ jobs:
             - name: Run test suite
               working-directory: ./build
               run: make test_suite && ctest -R full -V
+    install:
+        strategy:
+            matrix:
+                os: [ubuntu-latest, macos-latest] 
+        runs-on: ${{ matrix.os }}
+        steps:
+            # Checkout the mcpp repository
+            - name: Checkout mcpp
+              uses: actions/checkout@v4
+
+            - name: Build file
+              run: cmake .
+            
+            - name: Install library
+              run: make install
+            
+            - name: Compile and link
+              run: g++ -std=c++17 -lmcpp test/test_link.cpp -o test/test_link && test/test_link
+                
+            
+            
