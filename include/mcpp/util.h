@@ -256,7 +256,7 @@ struct HeightMap {
     /**
      * @brief An iterator for the HeightMap structure.
      *
-     * This iterator allows for range-based for loops and standard iterator
+     * This itrator allows for range-based for loops and standard iterator
      * operations over the height data stored within a HeightMap.
      */
     struct Iterator {
