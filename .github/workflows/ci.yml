@@ -46,8 +46,7 @@ jobs:
             
 
             - name: Compile and link library
-              run: g++ -std=c++17 -L/usr/local/lib -I/usr/local/include -lmcpp test/link_test.cpp -o test/link_test
-            
+              run: g++ -std=c++17  test/link_test.cpp -o test/link_test -lmcpp -L/usr/local/lib -I/usr/local/include
             - name: Run executable
               run: test/link_test
                 
