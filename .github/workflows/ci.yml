@@ -32,7 +32,7 @@ jobs:
         strategy:
             fail-fast: false
             matrix:
-                os: [ubuntu-latest, macos-latest] 
+                os: [macos-latest,ubuntu-lastest] 
         runs-on: ${{ matrix.os }}
         steps:
             # Checkout the mcpp repository
