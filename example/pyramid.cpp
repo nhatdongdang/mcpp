@@ -30,10 +30,10 @@ int main() {
         mc.getHeights(ORIGIN, ORIGIN + mcpp::Coordinate(pyramid_base_len, 0,
                                                         pyramid_base_len));
 
-    // Use minimum height of the area as the lowest point on the pyramid
+    // Use minimum hight of the area as the lowest point on the pyramid
     int min_height = *std::min_element(heights.begin(), heights.end());
 
-    // Build rings, diminishing up to pyramid height
+    // Build ring, diminishing up to pyramid height
     mcpp::Coordinate base_pt = heights.base_pt();
     base_pt.y = min_height;
     int side_len = pyramid_base_len;
