@@ -28,7 +28,7 @@ jobs:
             - name: Run test suite
               working-directory: ./build
               run: make test_suite && ctest -R full -V
-    install-and-link:
+    install-and-compile:
         strategy:
             matrix:
                 os: [ubuntu-lastest,macos-latest] 
@@ -44,7 +44,7 @@ jobs:
             - name: Install library
               run: sudo make install
             
-            - name: Compile and link
+            - name: Compile and link library
               run: g++ -std=c++17 -lmcpp test/link_test.cpp -o test/link_test && test/link_test
                 
             
