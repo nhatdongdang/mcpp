@@ -2,6 +2,6 @@
 
 int main() {
     std::cout << mcpp::Blocks::AIR << "\n";
-    std::cout << "ok";
+    std::cout << "oks";
     return EXIT_SUCCESS;
 }
