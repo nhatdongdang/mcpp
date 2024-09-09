@@ -45,7 +45,7 @@ jobs:
               run: sudo make install
             
             - name: Compile and link
-              run: g++ -std=c++17 -lmcpp test/link_test.cpp -o test/test_link && test/link_test
+              run: g++ -std=c++17 -lmcpp test/link_test.cpp -o test/link_test && test/link_test
                 
             
             
